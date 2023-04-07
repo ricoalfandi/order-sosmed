@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beli Disini</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            background: #ebf0f6;
+            font-family: 'Poppins', sans-serif;
+            height: 800px;
+        }
+        .icon-judul {
+            font-size: 24px;
+        }
+        .card {
+            border: none;
+            border-radius: 20px;
+        }
+        .netflix {
+            border-radius: 25px;
+            padding: 0 30px;
+            background: #E50914;
+            color: #fff;
+        }
+        .youtube {
+            border-radius: 25px;
+            padding: 0 30px;
+            background: #ff0000;
+            color: #fff;
+        }
+        .spotify {
+            border-radius: 25px;
+            padding: 0 30px;
+            background: #1db954;
+            color: #fff;
+        }
+        .netflix:hover, .youtube:hover, .spotify:hover {
+            color: #fff;
+        }
+        .payment {
+            margin-bottom: -5px;
+        }
+        span {
+            font-size: 16px;
+            font-weight: 600;
+            color: #3a3f48;
+        }
+        .price {
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center my-5">
+            <h4>Order Kebutuhan</h4>
+            <div class="d-flex justify-content-center">
+                <img src="netflix_logo_icon_170919.svg" alt="" width="24" height="24">
+                <i class="fa-brands fa-youtube mx-2 icon-judul" style="color: #ff0000;"></i>
+                <i class="fa-brands fa-spotify mx-2 icon-judul" style="color: #1db954;"></i>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card py-3 px-3 my-3">
+                    <div class="d-flex justify-content-between">
+                        <div class="navbar-brand">
+                            <img src="netflix_logo_icon_170919.svg" alt="" width="32" height="32">
+                            Netflix
+                        </div>
+                        <button class="btn netflix" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Detail
+                        </button>
+                    </div>
+                    <div class="collapse mt-3" id="collapseExample">
+                        <strong>Netflix Premium</strong>
+                        <div class="my-1">
+                            <i class="bi bi-check-circle-fill text-success"></i> Tonton semua yang kamu mau. Bebas iklan.
+                        </div>
+                        <div class="my-1">
+                            <i class="bi bi-check-circle-fill text-success"></i> Rekomendasi hanya untukmu.
+                        </div>
+                        <div class="my-1">
+                            <i class="bi bi-check-circle-fill text-success"></i> Ubah atau batalkan paketmu kapan pun.
+                        </div>
+                        <div class="my-4">
+                            <strong>Keuntungan</strong>
+                            <div class="my-1">
+                                <i class="bi bi-award-fill text-success"></i> Kualitas : Terbaik
+                            </div>
+                            <div class="my-1">
+                                <i class="bi bi-award-fill text-success"></i> Resolusi : 4K+HDR
+                            </div>
+                            <div class="my-1">
+                                <i class="bi bi-award-fill text-success"></i> Perangkat : <i class="bi bi-phone"></i> Ponsel <i class="bi bi-tablet"></i> Tablet <i class="bi bi-pc-display-horizontal"></i> Komputer <i class="bi bi-tv"></i> TV
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <strong>Harga</strong>
+                            <div class="my-1">
+                                <s>Rp.186.000</s>/bulan
+                            </div>
+                            <div class="my-1 price">
+                                Rp.40.000/bulan
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <a href="https://api.whatsapp.com/send?phone=6281991548189&text=Halo aku mau beli Netflix Premium. Apakah masih ada?" target="_blank">
+                                <button class="btn netflix">Beli</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card py-3 px-3 my-3">
+                    <div class="d-flex justify-content-between">
+                        <div class="navbar-brand">
+                            <i class="fa-brands fa-youtube" style="color: #ff0000; font-size: 32px;"></i>
+                            YouTube
+                        </div>
+                        <button class="btn youtube" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                            Detail
+                        </button>
+                    </div>
+                    <div class="collapse mt-3" id="collapseExample1">
+                        <strong>Youtube Premium</strong>
+                        <div class="my-1">
+                            <i class="bi bi-check-circle-fill text-success"></i> YouTube Music & YouTube bebas iklan, secara offline, dan di latar belakang.
+                        </div>
+                        <div class="my-4">
+                            <strong>Keuntungan</strong>
+                            <div class="my-1">
+                                <i class="bi bi-award-fill text-success"></i> Bebas iklan, putar di latar : Tonton video tanpa iklan, sambil menggunakan aplikasi lain, atau saat layar terkunci.
+                            </div>
+                            <div class="my-1">
+                                <i class="bi bi-award-fill text-success"></i> Dapat didownload : Simpan video untuk ditonton saat Anda sangat membutuhkannya seperti saat di pesawat atau di jalan.
+                            </div>
+                            <div class="my-1">
+                                <i class="bi bi-award-fill text-success"></i> YouTube Music Premium : Download aplikasi musik baru dan dengarkan tanpa gangguan.
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <strong>Harga</strong>
+                            <div class="my-1">
+                                <s>&euro; 11,99</s>/bulan (Rp.195.500)
+                            </div>
+                            <div class="my-1 price">
+                                Rp.10.000 get 6 bulan
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <a href="https://api.whatsapp.com/send?phone=6281991548189&text=Halo aku mau beli YouTube Premium. Apakah masih ada?" target="_blank">
+                                <button class="btn youtube">Beli</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card py-3 px-3 my-3">
+                    <div class="d-flex justify-content-between">
+                        <div class="navbar-brand">
+                            <i class="fa-brands fa-spotify" style="color: #1db954; font-size: 32px;"></i>
+                            Spotify
+                        </div>
+                        <button class="btn spotify" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                            Detail
+                        </button>
+                    </div>
+                    <div class="collapse mt-3" id="collapseExample2">
+                        <strong>Spotify Premium</strong>
+                        <div class="my-1">
+                            <i class="bi bi-check-circle-fill text-success"></i> Dengarkan tanpa batas di HP, speaker, dan perangkat lainnya.
+                        </div>
+                        <div class="my-4">
+                            <strong>Keuntungan</strong>
+                            <div class="my-1">
+                                <i class="bi bi-award-fill text-success"></i> Mendengarkan musik bebas iklan.
+                            </div>
+                            <div class="my-1">
+                                <i class="bi bi-award-fill text-success"></i> Group Session.
+                            </div>
+                            <div class="my-1">
+                                <i class="bi bi-award-fill text-success"></i> Download 10rb lagu/perangkat di lima perangkat.
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <strong>Harga</strong>
+                            <div class="my-1">
+                                <s>Rp.54.990</s>/bulan
+                            </div>
+                            <div class="my-1 price">
+                                Rp.14.000/bulan
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <a href="https://api.whatsapp.com/send?phone=6281991548189&text=Halo aku mau beli Spotify Premium. Apakah masih ada?" target="_blank">
+                                <button class="btn spotify">Beli</button>
+                            </a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+         </div> 
+         <div class="text-center my-5">
+            <h4 class="payment">Pembayaran</h4>
+            <div class="navbar-brand">
+                <img src="Logo_dana_blue.svg" alt="" width="60" height="60">
+                <span>082268635258</span>
+            </div>
+        </div>  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
